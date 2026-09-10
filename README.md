@@ -8,7 +8,11 @@ CCBio 面向生命科学与材料研究，提供分子结构查看与编辑、�
 
 访问 [Releases](https://github.com/yanbo-mol/ccbiomol_release/releases) 获取已公开的安装包。下载具体版本 Assets 中的 Windows `.exe` 文件；GitHub 自动生成的 `Source code` 压缩包不是安装程序。
 
-当前仓库尚未公开安装包，首个版本正在准备。需要内测安装包，请通过下方联系方式联系团队。
+当前提供 **CCBio 0.1.0 Windows x64 公开预览版**（构建 `c6e4ba4788af`）。这是未签名的 CI 候选包，尚非客户正式版，交互取消验收尚未通过；已知限制见版本说明。
+
+- [下载 Windows 安装包（EXE，约 734 MB）](https://github.com/yanbo-mol/ccbiomol_release/releases/download/v0.1.0-preview.c6e4ba4788af/CCBio-0.1.0-win-64-UNSIGNED-c6e4ba4788af.exe)
+- [版本说明与已知限制](https://github.com/yanbo-mol/ccbiomol_release/releases/tag/v0.1.0-preview.c6e4ba4788af)
+- [下载 SHA256SUMS 校验文件](https://github.com/yanbo-mol/ccbiomol_release/releases/download/v0.1.0-preview.c6e4ba4788af/SHA256SUMS)
 
 正式版与标记为 **Pre-release** 的测试版分开管理。测试版的适用范围及已知问题以对应版本说明为准。
 
