@@ -1,10 +1,10 @@
-# CCBio
+# YB Mol Agent
 
 **面向计算化学、结构生物学与分子设计研究者的桌面工作台。**
 
-CCBio 将三维分子结构查看与编辑、项目文件管理和 CCAgent 自然语言辅助放在同一界面中。研究者可以检查结构，从原子、残基到整个体系进行修改，调用已配置的建模与计算工具，并保存、比较或恢复修改结果。
+YB Mol Agent 当前公开版本由 CCBio 桌面工作台与 CCAgent 科研智能体组成。CCBio 将三维分子结构查看与编辑、项目文件管理和 CCAgent 自然语言辅助放在同一界面中。研究者可以检查结构，从原子、残基到整个体系进行修改，调用已配置的建模与计算工具，并保存、比较或恢复修改结果。
 
-[下载 Windows 预览版](https://github.com/yanbo-mol/ccbiomol_release/releases/download/v0.1.0-preview.c6e4ba4788af/CCBio-0.1.0-win-64-UNSIGNED-c6e4ba4788af.exe) · [查看版本说明](https://github.com/yanbo-mol/ccbiomol_release/releases/tag/v0.1.0-preview.c6e4ba4788af) · [阅读使用手册](https://ccbiomol.com/manuals/CCBio-Help-Manual.html) · [申请产品演示](https://ccbiomol.com/contact/)
+[下载 Windows 预览版](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.c6e4ba4788af/CCBio-0.1.0-win-64-UNSIGNED-c6e4ba4788af.exe) · [查看版本说明](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.c6e4ba4788af) · [阅读使用手册](https://ccbiomol.com/manuals/CCBio-Help-Manual.html) · [申请产品演示](https://ccbiomol.com/contact/)
 
 [![CCBio 工作台：蛋白三维结构、结构列表与 CCAgent 分析面板](https://ccbiomol.com/images/products/ccbio-workbench-4o9h.png)](https://ccbiomol.com/images/products/ccbio-workbench-4o9h.png)
 
@@ -54,9 +54,9 @@ CCBio 的产品方向覆盖：
 
 当前提供 **CCBio 0.1.0 Windows x64 公开预览版**（构建 `c6e4ba4788af`）：
 
-- [下载 Windows 安装包（EXE，约 734 MB）](https://github.com/yanbo-mol/ccbiomol_release/releases/download/v0.1.0-preview.c6e4ba4788af/CCBio-0.1.0-win-64-UNSIGNED-c6e4ba4788af.exe)
-- [版本说明与已知限制](https://github.com/yanbo-mol/ccbiomol_release/releases/tag/v0.1.0-preview.c6e4ba4788af)
-- [下载 SHA256SUMS 校验文件](https://github.com/yanbo-mol/ccbiomol_release/releases/download/v0.1.0-preview.c6e4ba4788af/SHA256SUMS)
+- [下载 Windows 安装包（EXE，约 734 MB）](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.c6e4ba4788af/CCBio-0.1.0-win-64-UNSIGNED-c6e4ba4788af.exe)
+- [版本说明与已知限制](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.c6e4ba4788af)
+- [下载 SHA256SUMS 校验文件](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.c6e4ba4788af/SHA256SUMS)
 
 1. 下载具体 Release 的 Windows `.exe` 文件。GitHub 自动生成的 `Source code` 压缩包不是安装程序。
 2. 按下方方法校验安装包的 SHA-256。
