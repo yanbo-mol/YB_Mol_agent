@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use YB_Mol in your research, please cite the following preprint."
+title: "YB_Mol"
+type: software
+authors:
+  - family-names: Zhao
+    given-names: Yanbo
+  - family-names: Zhang
+    given-names: Shuai
+  - family-names: Li
+    given-names: Shenggang
+  - family-names: Miao
+    given-names: Zezhong
+  - family-names: Fu
+    given-names: Haijiao
+  - family-names: Wang
+    given-names: Miaomiao
+version: 0.1.0-preview.d87497e61870
+date-released: 2026-10-05
+url: "https://ccbiomol.com/"
+repository-code: "https://github.com/yanbo-mol/YB_Mol_agent"
+preferred-citation:
+  type: article
+  title: "YB_Mol Studio: an agent-integrated visual editing platform for molecular and materials design"
+  authors:
+    - family-names: Zhao
+      given-names: Yanbo
+    - family-names: Zhang
+      given-names: Shuai
+    - family-names: Li
+      given-names: Shenggang
+    - family-names: Miao
+      given-names: Zezhong
+    - family-names: Fu
+      given-names: Haijiao
+    - family-names: Wang
+      given-names: Miaomiao
+  journal: ChemRxiv
+  year: 2026
+  doi: 10.26434/chemrxiv.15010106/v1
