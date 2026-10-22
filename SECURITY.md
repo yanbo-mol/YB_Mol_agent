@@ -13,7 +13,7 @@ Please report suspected vulnerabilities privately by email:
 
 Include the affected version, operating system, reproduction steps, observed impact and any relevant logs with secrets and research data removed. Please do not open a public GitHub Issue for an unpatched vulnerability.
 
-Do not send API keys, private keys, license files, unpublished molecular structures, patient data or other sensitive research material. We will acknowledge the report and coordinate follow-up through email.
+Do not send API keys, private keys, unpublished molecular structures, patient data or other sensitive research material. We will acknowledge the report and coordinate follow-up through email.
 
 ## Agent and Data Safety
 

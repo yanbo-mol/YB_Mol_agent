@@ -15,10 +15,10 @@ authors:
     given-names: Haijiao
   - family-names: Wang
     given-names: Miaomiao
-version: 0.1.0-preview.d87497e61870
-date-released: 2026-10-05
+version: 0.1.0-preview.656a16e02897
+date-released: 2026-10-22
 url: "https://ccbiomol.com/"
-repository-code: "https://github.com/yanbo-mol/YB_Mol_agent"
+repository-artifact: "https://github.com/yanbo-mol/YB_Mol_agent"
 preferred-citation:
   type: article
   title: "YB_Mol Studio: an agent-integrated visual editing platform for molecular and materials design"
