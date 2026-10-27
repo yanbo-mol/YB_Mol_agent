@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Activation and collaboration / 激活与合作
+    url: https://ccbiomol.com/contact/
+    about: Contact the product team privately / 私下联系产品团队
+  - name: Security report / 安全问题
+    url: https://github.com/yanbo-mol/YB_Mol_agent/blob/main/SECURITY.md
+    about: Report vulnerabilities privately / 请勿公开提交未修复漏洞

@@ -2,7 +2,7 @@
 
 ## Supported Release
 
-YB_Mol is currently distributed as a Windows x64 preview. Security fixes and support apply to the latest published preview release unless a release note states otherwise.
+YB_MOL Studio is currently distributed as a Windows x64 preview. Security fixes and support apply to the latest published preview release unless a release note states otherwise.
 
 ## Reporting a Vulnerability
 

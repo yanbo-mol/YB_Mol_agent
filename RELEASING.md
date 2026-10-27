@@ -1,21 +1,23 @@
-# 版本发布维护
+# Release maintenance / 发布维护
 
-## 发布内容
+The public product name is **YB_MOL Studio**. Keep internal package names, published paper titles and existing installer filenames unchanged when they identify a specific artifact.
 
-Git 仓库只保存产品介绍和发布说明。安装程序上传到 GitHub Release 的 Assets，不提交到 Git 历史。
+## Public contents / 对外内容
 
-将选定的安装程序从开发构建复制到发布草稿，保持原文件名。开发仓库的源码、CI 记录、构建证据、发行工具及私钥不作为用户安装附件上传。
+This repository contains product documentation, approved screenshots, small demonstration files and feedback forms. Upload installers to Release assets, not Git history. Do not publish application source, private logs, project databases, credentials or licensing tools.
 
-## 版本状态
+## Before publishing / 发布前
 
-- `vX.Y.Z`：经过发布验收的正式版。
-- `vX.Y.Z-rc.N`：明确选择对外测试的候选版，勾选 Pre-release。
-- 内部 Windows CI 候选构建：先保存在 Draft 中，记录构建标识及实际验证状态，不自动升级为正式版。
+- Choose the exact build and label it Preview, Release Candidate or Stable according to actual acceptance status. Internal builds remain drafts.
+- Preserve the original installer bytes and filename. Compute SHA-256 from the exact file; verify it against the source artifact and GitHub asset digest when available. Attach `SHA256SUMS`.
+- Include platform, date, build, user-facing changes, activation requirements, signing state and known limitations. Distinguish build checks from clean installation and real GUI validation.
+- Check installer download without authentication, documentation links, bilingual README parity, citation version and issue forms.
+- Publish only visuals reviewed for private information. State recording date/build when known and label speed changes. Do not imply that old recordings validate a new build.
 
-Release 说明只写明适用平台、安装包名称、主要更新和必要的已知问题。保留实际签名和测试状态，不把构建完成等同于产品验收完成。
+## After publishing / 发布后
 
-## 对外发布
+Update both READMEs, installation links and CITATION.cff. Pin downloads to the chosen public tag; `/releases/latest` does not identify preview-only releases reliably. Preserve older releases for traceability. If installer bytes change, create a new release instead of silently replacing the existing package.
 
-确定具体版本及测试版 / 正式版定位后发布对应草稿，使用未登录浏览器确认 EXE 可以下载。随后更新 README 的发布状态和官网的版本及下载链接。
+Sync the website separately when its deployment is available. A repository documentation change does not itself update the installed app or website.
 
-官网优先使用指定 tag 和附件名的下载地址，避免将最新内部构建自动推荐给用户。若安装包发生变化，创建新版本，保留已有版本供追溯。
+公开产品名称统一为 **YB_MOL Studio**。发布前核对安装包、校验值、签名与激活状态、真实验收范围、中英文入口、案例隐私及链接；发布后同步仓库版本说明。官网、应用界面与历史安装包是独立发布对象，不要将仓库文档更新描述为全部产品已更新。

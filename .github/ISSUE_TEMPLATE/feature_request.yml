@@ -1,0 +1,27 @@
+name: Feature request / 功能建议
+description: Describe a workflow you want to improve / 描述希望改善的工作流程
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Scientific task / 科研任务
+      description: What are you trying to accomplish? / 想完成什么？
+    validations:
+      required: true
+  - type: textarea
+    id: obstacle
+    attributes:
+      label: Current obstacle / 目前障碍
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome / 期望效果
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Public examples or references / 可公开样例或参考

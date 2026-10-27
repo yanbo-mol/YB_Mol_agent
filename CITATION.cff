@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use YB_Mol in your research, please cite the following preprint."
-title: "YB_Mol"
+message: "If you use YB_MOL Studio in your research, please cite the following preprint."
+title: "YB_MOL Studio"
 type: software
 authors:
   - family-names: Zhao

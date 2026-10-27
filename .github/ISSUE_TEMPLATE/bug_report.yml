@@ -1,0 +1,49 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem in YB_MOL Studio / 提交可复现问题
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Please remove API keys, activation details and private research data. / 请删除密钥、激活信息与未公开科研数据。"
+  - type: input
+    id: version
+    attributes:
+      label: App version and build / 应用版本和构建号
+      placeholder: "0.1.0-preview.656a16e02897"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows version and relevant environment / Windows 及相关环境
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: Include a minimal public sample if possible. / 尽量附可公开的最小样例。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result / 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and error / 实际结果与错误信息
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Provider and model if relevant / 涉及的服务商与模型
+      description: No API keys. Say whether images were included. / 不要填写密钥；说明是否包含图片。
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or logs / 截图或日志
+      description: Share only information that can be made public. / 仅提供可公开信息。
