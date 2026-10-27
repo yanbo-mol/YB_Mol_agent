@@ -1,59 +1,61 @@
 <p align="right"><strong>English</strong> | <a href="README_zh-CN.md">简体中文</a></p>
 
-# YB_Mol
+# YB_MOL Studio
 
-**An agent-integrated visual editing platform for molecular and materials design.**
+**See, edit and refine molecular structures together with an AI agent.**
 
-YB_Mol brings molecular visualization and editing, project files, versioned states, domain Skills, and computational tools into one workspace. Researchers and YB_Agent work with the same molecular objects, so structures, tool results, and design changes remain inspectable.
+YB_MOL Studio is a desktop workspace for molecular and materials design. You and YB_Agent work on the same editable molecular objects: inspect a structure in 3D, make a precise change by hand or in natural language, compare candidates, and continue with scientific tools.
 
-[![Paper](https://img.shields.io/badge/Paper-ChemRxiv-0f766e)](https://doi.org/10.26434/chemrxiv.15010106/v1)
-[![Windows](https://img.shields.io/badge/Windows-x64%20Preview-2563eb)](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.656a16e02897)
-[![Website](https://img.shields.io/badge/Website-ccbiomol.com-102f31)](https://ccbiomol.com/)
+**[Download Windows preview](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.656a16e02897/YB_Mol-0.1.0-win-64-UNSIGNED-656a16e02897.exe) · [Get started](docs/quickstart.md) · [Explore examples](examples/README.md) · [Report an issue](https://github.com/yanbo-mol/YB_Mol_agent/issues/new/choose)**
 
-[Download for Windows](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.656a16e02897/YB_Mol-0.1.0-win-64-UNSIGNED-656a16e02897.exe) · [Read the Paper](https://doi.org/10.26434/chemrxiv.15010106/v1) · [Documentation](https://ccbiomol.com/docs/) · [Contact Us](https://ccbiomol.com/contact/)
+[Windows x64 preview](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.656a16e02897) · [ChemRxiv preprint](https://doi.org/10.26434/chemrxiv.15010106/v1) · [Website](https://ccbiomol.com/)
 
-## What YB_Mol provides
+[![Real workspace: keeping the original molecule and inspecting a fluorinated candidate](assets/screenshots/molecular-editing.png)](assets/demos/molecular-editing.mp4)
 
-| Component | Role |
+**[Watch the 64-second editing demo](assets/demos/molecular-editing.mp4)** — retain anisole, create a candidate and replace one para hydrogen with fluorine. Actual app recording prepared on 2026-10-05; the execution segment is accelerated 8×. [Recording details](assets/README.md).
+
+## What makes the workspace useful
+
+- **Direct molecular editing.** Inspect atoms, bonds, residues and chains, then change the structure yourself. Useful for researchers who prefer visual tools and experts who need hands-on control.
+- **Human–agent collaboration.** Ask YB_Agent to make a local change, inspect the resulting object and continue editing it. The result remains a molecular structure you can work with.
+- **Continuous design.** Keep a baseline, create candidates and compare revisions within a project before exporting a selected structure.
+- **Connected computation.** Use configured scientific tools, model services and local or remote computing resources, with results and files available in the workspace.
+
+The molecular-object core is `yb_mol`; YB_Agent operates through the platform's tools. Available tasks depend on the installed version, model connection and scientific environment.
+
+## See concrete examples
+
+| Example | What you can inspect |
 | --- | --- |
-| **YB_Mol Workspace** | Manages projects, molecular structures, files, versions, and computational results with interactive 3D visualization and editing. |
-| **YB_Agent** | Interprets research goals, reads project context, and uses configured Skills, models, and tools to assist with research tasks. |
+| [Small-molecule editing](examples/molecular-editing/README.md) | Anisole → para-fluoroanisole; original and candidate shown together; real recording. |
+| [Protein editing](examples/protein-editing/README.md) | 1UBQ A:11 Lys → Ala; a local side-chain change in the 3D workspace. |
+| [Co₃O₄ crystal and surface modeling](examples/materials/README.md) | Bulk crystal → (112) surface supercell → toluene placement; downloadable structure files. |
+| [RNA chemical modification](examples/rna-editing/README.md) | N6 methyl addition to a short RNA fragment; recorded structural result and export limitations. |
 
-Researchers can work manually or ask YB_Agent for assistance while reviewing the resulting structures, files, tool calls, logs, and conclusions.
+These are structural modeling examples. They do not establish improved activity, stability or catalytic performance. Historical recordings and the newer crystal files are dated individually; they are not a fresh acceptance test of the downloadable installer.
 
-## Download and install
+## Install and try
 
-The current public build is **YB_Mol 0.1.0 for Windows x64 (Preview)**, build `656a16e02897`, published on October 22, 2026.
+Current public build: **0.1.0 Windows x64 preview**, `v0.1.0-preview.656a16e02897`, published **2026-10-22**.
 
-1. [Download `YB_Mol-0.1.0-win-64-UNSIGNED-656a16e02897.exe`](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.656a16e02897/YB_Mol-0.1.0-win-64-UNSIGNED-656a16e02897.exe).
-2. Double-click the downloaded `.exe` and follow the Windows installer.
+1. [Download the installer](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.656a16e02897/YB_Mol-0.1.0-win-64-UNSIGNED-656a16e02897.exe) from the [release page](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.656a16e02897). The source-code ZIP is not an installer.
+2. Install and launch the app. If an activation screen appears, follow the [installation and activation guide](docs/installation.md).
+3. Open a structure and inspect it manually. To use YB_Agent, configure a provider in **Settings → Agent Models**, then try the [first editing task](docs/quickstart.md).
 
-This preview installer is unsigned, so Windows may display an “Unknown publisher” warning. The automatically generated `Source code.zip` and `Source code.tar.gz` files on the Release page are not installers.
+The installer is unsigned. Device authorization and third-party model/computing fees are separate from downloading the installer. See [installation](docs/installation.md) and [model setup](docs/model-configuration.md) for details.
 
-## Core capabilities
+## Help and feedback
 
-- Organize small molecules, proteins, complexes, crystals, surfaces, polymers, and related project files.
-- Inspect and edit molecular structures from systems and chains down to residues, atoms, and bonds.
-- Preserve baselines and versions, compare candidates, and export results.
-- Let YB_Agent use configured models, scripts, scientific tools, and local or remote computing environments.
-- Review plans, tool calls, logs, structural changes, and output files in the same project context.
+[Quick start](docs/quickstart.md) · [Model setup](docs/model-configuration.md) · [FAQ](docs/faq.md) · [Website documentation](https://ccbiomol.com/docs/)
 
-## Typical workflow
+Use [GitHub Issues](https://github.com/yanbo-mol/YB_Mol_agent/issues/new/choose) for reproducible bugs and feature requests. For activation and research collaboration, contact [zhaoyanbo@ccbiomol.com](mailto:zhaoyanbo@ccbiomol.com) or [zhangshuai@ccbiomol.com](mailto:zhangshuai@ccbiomol.com). Report security issues privately using [SECURITY.md](SECURITY.md).
 
-```text
-Import a structure → inspect and save a baseline
-                   → edit manually or ask YB_Agent for assistance
-                   → review structures, tool results, logs, and files
-                   → compare candidates → export the selected result
-```
-
-YB_Mol supports research in protein and antibody design, small-molecule drug design, materials modeling, and polymer structure design. Available capabilities depend on the installed release and the models, tools, and computing environments configured by the user.
-
-## Paper
+## Research and citation
 
 **YB_Mol Studio: an agent-integrated visual editing platform for molecular and materials design**<br />
-Yanbo Zhao, Shuai Zhang, Shenggang Li, Zezhong Miao, Haijiao Fu, Miaomiao Wang<br />
-ChemRxiv, Version 1, 2026. [https://doi.org/10.26434/chemrxiv.15010106/v1](https://doi.org/10.26434/chemrxiv.15010106/v1)
+Yanbo Zhao, Shuai Zhang, Shenggang Li, Zezhong Miao, Haijiao Fu, Miaomiao Wang. ChemRxiv, 2026. [Read the preprint](https://doi.org/10.26434/chemrxiv.15010106/v1).
+
+The publication title is retained as published. The preprint has not been peer reviewed.
 
 ```bibtex
 @article{zhao2026ybmol,
@@ -65,19 +67,6 @@ ChemRxiv, Version 1, 2026. [https://doi.org/10.26434/chemrxiv.15010106/v1](https
 }
 ```
 
-The manuscript is a preprint and has not undergone peer review.
-
-## Safety and support
-
-YB_Agent may access project files, network services, model providers, external programs, and remote computing environments according to user configuration. Review important structures, files, commands, results, and warnings before using them in research decisions. Do not use the preview as an unvalidated clinical, production, or safety-critical decision system.
-
-- [Documentation](https://ccbiomol.com/docs/)
-- [Contact](https://ccbiomol.com/contact/)
-- zhaoyanbo@ccbiomol.com
-- zhangshuai@ccbiomol.com
-
-Report security issues privately as described in [`SECURITY.md`](SECURITY.md). Reproducible software issues without sensitive information may be reported through GitHub Issues.
-
 ## Repository scope
 
-This public repository distributes YB_Mol installers and release information. It does not contain the core product source code, and its public visibility does not make the core software an open-source release.
+This is the public distribution, documentation and feedback repository for **YB_MOL Studio**. It does not contain the core application source code and is not an open-source release of that code. Software use is governed by the applicable product license; third-party datasets retain their own terms. See [contribution guidance](CONTRIBUTING.md) for documentation and feedback contributions.
