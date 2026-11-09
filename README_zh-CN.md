@@ -6,9 +6,9 @@
 
 YB_MOL Studio 是面向分子与材料设计的桌面工作平台。用户与 YB_Agent 围绕同一份可编辑分子对象协作：在三维界面中查看结构，通过手动操作或自然语言精确修改，比较候选方案，并连接科学工具继续研究。
 
-**[下载 Windows 预览版](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.656a16e02897/YB_Mol-0.1.0-win-64-UNSIGNED-656a16e02897.exe) · [快速上手](docs/quickstart.md) · [查看案例](examples/README.md) · [反馈问题](https://github.com/yanbo-mol/YB_Mol_agent/issues/new/choose)**
+**[下载 Windows 社区版 1.4](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/community-v1.4-windows/YB_Mol-win-64-community_v1.4.exe) · [Skills 库](skills/) · [快速上手](docs/quickstart.md) · [查看案例](examples/README.md) · [反馈问题](https://github.com/yanbo-mol/YB_Mol_agent/issues/new/choose)**
 
-[Windows x64 预览版](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.656a16e02897) · [ChemRxiv 预印本](https://doi.org/10.26434/chemrxiv.15010106/v1) · [官网](https://ccbiomol.com/)
+[Windows x64 发布说明](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/community-v1.4-windows) · [ChemRxiv 预印本](https://doi.org/10.26434/chemrxiv.15010106/v1) · [官网](https://ccbiomol.com/)
 
 [![真实工作界面：保留苯甲醚原件，并检查氟代候选结构](assets/screenshots/molecular-editing.png)](assets/demos/molecular-editing.mp4)
 
@@ -36,13 +36,15 @@ YB_MOL Studio 是面向分子与材料设计的桌面工作平台。用户与 YB
 
 ## 安装与首次使用
 
-当前公开版本为 **0.1.0 Windows x64 预览版**，`v0.1.0-preview.656a16e02897`，发布于 **2026-10-22**。
+当前公开发行版为 **Windows x64 社区版 1.4**（App 内部版本 1.2.0）。
 
-1. 从[发布页](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.656a16e02897)[下载安装程序](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.656a16e02897/YB_Mol-0.1.0-win-64-UNSIGNED-656a16e02897.exe)。`Source code` 压缩包不是安装程序。
+1. 从[发布页](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/community-v1.4-windows)[下载安装程序](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/community-v1.4-windows/YB_Mol-win-64-community_v1.4.exe)。`Source code` 压缩包不是安装程序。
 2. 安装并启动；如出现激活界面，按[安装与激活说明](docs/installation.md)操作。
 3. 导入结构，先尝试手动查看；使用 YB_Agent 时，在 **Settings → Agent Models** 配置模型服务，再完成[第一个编辑任务](docs/quickstart.md)。
 
 安装包尚未签名。下载安装包、设备授权，以及第三方模型和计算服务费用是不同事项，详见[安装说明](docs/installation.md)与[模型配置](docs/model-configuration.md)。
+
+在 App 中打开 **Skill Library** 即可按领域浏览并选择安装。[仓库 Skills 目录](skills/) 收录 17 个领域的 733 个独立加密包。
 
 ## 文档、反馈与合作
 

@@ -9,7 +9,7 @@ body:
     id: version
     attributes:
       label: App version and build / 应用版本和构建号
-      placeholder: "0.1.0-preview.656a16e02897"
+      placeholder: "Community 1.4 (App 1.2.0)"
     validations:
       required: true
   - type: input

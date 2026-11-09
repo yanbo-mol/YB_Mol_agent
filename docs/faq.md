@@ -1,7 +1,7 @@
 # FAQ / 常见问题
 
 **Which file should I download? / 应该下载哪个文件？**<br />
-The `.exe` on the [selected release](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.656a16e02897); not the source-code ZIP. / 下载对应发布页的 `.exe`，不是 Source code 压缩包。
+The `.exe` on the [selected release](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/community-v1.4-windows); not the source-code ZIP. / 下载对应发布页的 `.exe`，不是 Source code 压缩包。
 
 **Is the software open source? / 软件开源吗？**<br />
 This repository distributes installers, documentation and examples. The core application code is not included. / 这里分发安装包、文档和案例，不包含核心应用源码。

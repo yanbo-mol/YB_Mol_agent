@@ -1,0 +1,65 @@
+Software and Skill Package Free Use License
+Version: 1.0
+Release date: November 5, 2026
+
+Copyright © 2026 杭州衍波摩尔科技有限公司. All rights not expressly granted under this License are reserved.
+
+1. Scope and Ownership
+
+This License applies to the software and skill packages distributed with this document, including programs owned by the Licensor, original instructions, workflows, and modifications, organization, and compilations in which the Licensor lawfully holds rights (collectively, the "Product"). The Licensor is 杭州衍波摩尔科技有限公司, identified here by its legal name in Chinese. This License does not transfer ownership of any intellectual property.
+
+The skill package is organized, optimized, and distributed by the publisher. Pre-existing third-party content remains the property of its respective rights holders and is governed by the applicable third-party licenses.
+
+2. Free Use Grant
+
+Subject to compliance with this License, the Licensor grants you a non-exclusive, worldwide, royalty-free right to install and run the Product and make necessary backup copies for personal study, teaching, non-commercial research, and internal research and development by companies and other organizations. Internal corporate research and development is permitted even when undertaken for a commercial purpose.
+
+For these purposes, you may configure public parameters, prepare inputs, and invoke the Product through its public interfaces. An organization may provide necessary access to employees and contractors under its management who participate in its internal research and development. Such access must not be used to provide a product or hosted service to the general public or an unspecified group of third parties.
+
+3. Sharing
+
+You may share complete, unmodified official distribution packages free of charge. Any shared package must retain its original name, copyright notices, this License, third-party licenses, and necessary provenance information. You must not falsely represent yourself as the official publisher or original author, or separately distribute protected implementations, decryption credentials, or versions from which protection has been removed.
+
+4. Activities Requiring Separate Authorization
+
+Without the Licensor's prior written authorization, you must not carry out any of the following activities with respect to content owned by the Licensor:
+
+1) Change its name, branding, attribution, or packaging and distribute it as your own product or another party's product.
+2) Embed, bundle, copy, or adapt the Product, in whole or in substantial part, into another product offered to third parties, including products offered free of charge.
+3) Sell, rent, or sublicense the Product, or offer it to third parties as a paid service, paid API, or hosted platform.
+4) Remove, alter, or conceal copyright or provenance notices; falsely claim original authorship; or copy protected programs, documents, or other expression and present them as your own work.
+5) Circumvent encryption or access protection; extract, disclose, or distribute protected implementations or decryption credentials without authorization; or create or distribute cracked versions intended for these activities.
+
+6) Use an AI agent other than the official yb_agent to load the Product's protected workflow or invoke its executable entrypoint, directly or indirectly, including through scripts or command-line interfaces. Access to the YB runtime alone does not authorize another AI agent.
+
+Reading, decryption, and invocation performed by a supported runtime on behalf of the authorized official yb_agent during normal operation are authorized uses. These restrictions do not exclude activities that applicable law does not permit to be restricted, and do not limit rights independently granted by third-party licenses. Public scientific principles, ideas underlying methods, and independent development that does not use protected expression are not treated as plagiarism under this License.
+
+5. Input Data and Research Results
+
+You retain the rights you lawfully hold in your input data and research results. Use of the Product does not, by itself, give the Licensor any rights in your data, computational results, or other outputs.
+
+You may use lawfully generated research results in publications, patents, corporate research and development, and commercialization of research outcomes, without an additional license fee solely because the Product assisted in generating those results. This permission does not allow you to redistribute the Product itself, protected implementations, or documentation as "research results." Where outputs contain third-party materials, the corresponding rights and licenses still apply.
+
+6. Third-Party Content and External Services
+
+Third-party code, materials, models, data, and dependencies included in the package are governed by their respective licenses. Their license texts, NOTICE files, provenance information, and required modification notices must be retained. If this License conflicts with an applicable third-party license, that third-party license governs the corresponding third-party content.
+
+This License does not grant access to or authorization to use third-party accounts, APIs, commercial software, computing resources, databases, or force-field parameters, and does not cover their costs. You are responsible for obtaining any necessary authorization. File encryption does not alter obligations under third-party licenses.
+
+7. Data Processing and Use of Results
+
+You must have the necessary rights to process the materials you provide, and select execution environments, models, and computing services appropriate to the task. Encrypted distribution protects files at rest; it does not mean that runtime materials will not be processed by a selected model or external service. Processing depends on the actual configuration and the applicable service terms.
+
+You should evaluate outputs using the task conditions, input quality, parameters, and relevant domain knowledge. Program completion, file creation, or numerical output does not, by itself, establish that a result is correct, suitable, or converged.
+
+8. Warranties and Liability
+
+Unless otherwise agreed in writing or required by applicable law, the Product is provided "AS IS," without any guarantee that it is fit for a particular purpose, free of errors, uninterrupted, or compatible with every execution environment. To the extent permitted by law, the Licensor is not liable for indirect loss, loss of profits, or loss of data arising from the use of, or inability to use, the Product. This section does not exclude or limit liability that applicable law prohibits from being excluded or limited.
+
+9. Termination and Other Terms
+
+If you violate this License, the Licensor may notify you to stop the infringing or breaching conduct. For a material breach that is not remedied within a reasonable period after notice, the Licensor may terminate your authorization to use content owned by the Licensor. After termination, you must stop the relevant use and distribution, but may retain records that you are legally required to keep. Independent third-party licenses are not automatically terminated as a result.
+
+Publication of updated terms does not automatically or retroactively change permissions validly granted under this version. This License does not grant trademark rights, patent rights, or other rights not expressly stated. If any provision is invalid, the remaining provisions continue to apply to the extent permitted by law.
+
+This License does not designate an exclusive court jurisdiction or arbitration institution. Relevant matters are governed by applicable law. For productization, commercial integration, external services, or other uses outside the free use scope, contact the Licensor through the official distribution channels to obtain written authorization.
