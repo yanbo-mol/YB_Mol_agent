@@ -4,7 +4,7 @@ The public product name is **YB_MOL Studio**. Keep internal package names, publi
 
 ## Public contents / 对外内容
 
-This repository contains product documentation, approved screenshots, small demonstration files and feedback forms. Upload installers to Release assets, not Git history. Do not publish application source, private logs, project databases, credentials or licensing tools.
+This repository contains product documentation, approved screenshots, small demonstration files, protected Skill packages under `skills/` and feedback forms. Upload installers to Release assets, not Git history. Do not publish application source, private logs, project databases, credentials or licensing tools.
 
 ## Before publishing / 发布前
 
@@ -16,7 +16,7 @@ This repository contains product documentation, approved screenshots, small demo
 
 ## After publishing / 发布后
 
-Update both READMEs, installation links and CITATION.cff. Pin downloads to the chosen public tag; `/releases/latest` does not identify preview-only releases reliably. Preserve older releases for traceability. If installer bytes change, create a new release instead of silently replacing the existing package.
+Update both READMEs, installation links and CITATION.cff. Pin downloads to the chosen public tag; `/releases/latest` does not identify preview-only releases reliably. Keep the most recent previous downloadable release and preserve historical tags for traceability. If installer bytes change, create a new release instead of silently replacing the existing package.
 
 Sync the website separately when its deployment is available. A repository documentation change does not itself update the installed app or website.
 

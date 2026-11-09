@@ -6,9 +6,9 @@
 
 YB_MOL Studio is a desktop workspace for molecular and materials design. You and YB_Agent work on the same editable molecular objects: inspect a structure in 3D, make a precise change by hand or in natural language, compare candidates, and continue with scientific tools.
 
-**[Download Windows preview](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.656a16e02897/YB_Mol-0.1.0-win-64-UNSIGNED-656a16e02897.exe) · [Get started](docs/quickstart.md) · [Explore examples](examples/README.md) · [Report an issue](https://github.com/yanbo-mol/YB_Mol_agent/issues/new/choose)**
+**[Download Windows Community 1.4](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/community-v1.4-windows/YB_Mol-win-64-community_v1.4.exe) · [Skill Library](skills/) · [Get started](docs/quickstart.md) · [Explore examples](examples/README.md) · [Report an issue](https://github.com/yanbo-mol/YB_Mol_agent/issues/new/choose)**
 
-[Windows x64 preview](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.656a16e02897) · [ChemRxiv preprint](https://doi.org/10.26434/chemrxiv.15010106/v1) · [Website](https://ccbiomol.com/)
+[Windows x64 release notes](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/community-v1.4-windows) · [ChemRxiv preprint](https://doi.org/10.26434/chemrxiv.15010106/v1) · [Website](https://ccbiomol.com/)
 
 [![Real workspace: keeping the original molecule and inspecting a fluorinated candidate](assets/screenshots/molecular-editing.png)](assets/demos/molecular-editing.mp4)
 
@@ -36,13 +36,15 @@ These are structural modeling examples. They do not establish improved activity,
 
 ## Install and try
 
-Current public build: **0.1.0 Windows x64 preview**, `v0.1.0-preview.656a16e02897`, published **2026-10-22**.
+The current public release is **Windows x64 Community 1.4** (App version 1.2.0).
 
-1. [Download the installer](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/v0.1.0-preview.656a16e02897/YB_Mol-0.1.0-win-64-UNSIGNED-656a16e02897.exe) from the [release page](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/v0.1.0-preview.656a16e02897). The source-code ZIP is not an installer.
+1. [Download the installer](https://github.com/yanbo-mol/YB_Mol_agent/releases/download/community-v1.4-windows/YB_Mol-win-64-community_v1.4.exe) from the [release page](https://github.com/yanbo-mol/YB_Mol_agent/releases/tag/community-v1.4-windows). The source-code ZIP is not an installer.
 2. Install and launch the app. If an activation screen appears, follow the [installation and activation guide](docs/installation.md).
 3. Open a structure and inspect it manually. To use YB_Agent, configure a provider in **Settings → Agent Models**, then try the [first editing task](docs/quickstart.md).
 
 The installer is unsigned. Device authorization and third-party model/computing fees are separate from downloading the installer. See [installation](docs/installation.md) and [model setup](docs/model-configuration.md) for details.
+
+Open **Skill Library** in the app to browse and install individual Skills. The [repository catalog](skills/) includes 733 protected packages across 17 domains.
 
 ## Help and feedback
 
